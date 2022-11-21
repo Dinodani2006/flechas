@@ -1,0 +1,32 @@
+ function setup() {
+    createCanvas(500,500);
+    background(180);
+}
+function draw() {
+var teclaPulsada = keyCode;
+
+console.log("teclaPulsada "+ teclaPulsada);
+textSize(50);
+switch (teclaPulsada){
+case 38:
+    text("arriba",100,100);
+    break;
+    case 40:
+        text("abajo",100,100);
+        break;
+        case 37:
+            text("izquierda",100,100);
+        case 39:
+            break;
+            ellipse(100,100,50,50);
+            text("derecha",100,100);
+            break;
+            default:
+                break;
+            
+
+
+}
+}
+
+                            
